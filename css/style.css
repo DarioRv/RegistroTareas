@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Calibri;
+    /* background-image: url(https://img.freepik.com/vector-gratis/elegante-fondo-blanco-lineas-diagonales_1017-33199.jpg?w=2000); */
+    background-color: #322c8e;
+    
+}
+header{
+    width: 100%;
+}
+header nav{
+    background-color: #f80174;
+    padding: 20px 0;
+}
+header nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 56px;
+    font-weight: bold;
+}
+header nav ul li a{
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.titulo{
+    width: fit-content;
+    border-bottom: 5px solid #f80174;
+}
+h1{
+    font-size: 76px;
+    color: #fff;
+}
+.tareas{
+    width: 300px;
+    max-height: 500px;
+    padding: 20px;
+    border: 5px solid #f80174;
+    border-radius: 5px;
+    overflow: auto;
+}
+.tareas .item{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline #f80174;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 20px 0;
+}
+.tareas .item input{
+    width: 20px;
+    border: 2px solid #ff006e;
+}
+button{
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #f80174;
+    color: #f80174;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #f80174;
+    color: #fff;
+}
